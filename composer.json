@@ -1,0 +1,23 @@
+{
+  "name": "lixiongyou/ring",
+  "description": "Relation oriented framework",
+  "authors": [
+    {
+      "name": "lixiongyou",
+      "email": "lixiongyou@hotmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "lixiongyou/r": "dev-master"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ring\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
