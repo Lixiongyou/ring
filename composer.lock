@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b941e655eb7d5c56715ce3d0aaf9b11e",
+    "content-hash": "815b54bf5603a9fc1263f7b0834123df",
+    "packages": [
+        {
+            "name": "lixiongyou/r",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lixiongyou/r.git",
+                "reference": "3ae29232ccf5778fe722e50f088554cf47096b9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lixiongyou/r/zipball/3ae29232ccf5778fe722e50f088554cf47096b9f",
+                "reference": "3ae29232ccf5778fe722e50f088554cf47096b9f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "R\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lixiongyou",
+                    "email": "lixiongyou@hotmail.com"
+                }
+            ],
+            "description": "Relation oriented definition",
+            "time": "2017-07-09 03:09:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lixiongyou/r": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
